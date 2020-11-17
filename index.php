@@ -6,7 +6,7 @@ include 'admin/koneksi.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>E-commerccee</title>
+	<title>E-commerce</title>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -16,7 +16,7 @@ include 'admin/koneksi.php';
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container">
-			<a class="navbar-brand" href="#">E-commerccee</a>
+			<a class="navbar-brand" href="#">E-commerce</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -26,10 +26,10 @@ include 'admin/koneksi.php';
 						<a class="nav-link" href="#home"> HOME</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#product">PRODUCT</a>
+						<a class="nav-link" href="#product">PRODAK</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#registrasi" data-toggle="modal">REGISTRASI</a>
+						<a class="nav-link" href="#registrasi" data-toggle="modal">LOGIN</a>
 					</li>
 				</ul>
 			</div>
@@ -93,7 +93,7 @@ include 'admin/koneksi.php';
 		</div>
 	</section>
 	<section class="feature" id="product">
-		<h3 class="feture-title">PRODUCT</h3>
+		<h3 class="feture-title">PRODAK</h3>
 		<div class="container">
 			<div class="row">
 				<?php 
@@ -144,7 +144,7 @@ include 'admin/koneksi.php';
 			
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">REGISTRASI FORM</h5>
+					<h5 class="modal-title" id="exampleModalLabel">LOGIN FORM</h5>
 				</div>
 				<div class="modal-body">
 					<table class="table">
@@ -169,14 +169,13 @@ include 'admin/koneksi.php';
 							</tr>
 							<tr>
 								<td align="right">
-									<button type="submit" name="regis" class="btn btn-primary">REGISTRASI</button>
+									<button type="submit" name="regis" class="btn btn-primary">LOGIN</button>
 								</td>
 							</tr>
 						</form>
 					</table>
 				</div>
 			</div>
-			
 		</div>
 	</div>
 
